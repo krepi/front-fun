@@ -3,29 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <title>SupaSoupa</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/app.js" defer></script>
 </head>
 <body>
-<header class="header" id="header" style="background-color: cornsilk">
+<header class="header" id="header" >
     <nav>
-        <ul>
-            <li>SupaSoupa</li>
-            <li>Your Recipies</li>
-            <li>About</li>
+        <a href="#"><img class="nav_logo" src="images/logo_cutlery.png" alt="logo"></a>
+        <ul class="nav_block">
+            <!--            <li><a href="#">SupaSoupa</a></li>-->
+            <li><a href="views/your-recipes.html">Your Recipies</a></li>
+            <li><a href="views/about.html">About</a></li>
             <li>
-                <button>Login</button>
+                <button><a href="views/login.html">Login</a></button>
             </li>
         </ul>
     </nav>
-    <div class="hero" id="hero">
-        <h1>SupaSoupa</h1>
-        <img src="https://source.unsplash.com/DoUgSMezLp0" alt="" srcset="">
-        <button>Check Recipes</button>
-    </div>
 </header>
+<section class="hero" id="hero">
+    <div class="hero_text">
+        <h1>Discover our Recipes</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque aut dolor, esse excepturi fuga fugit ipsa
+            laborum modi nostrum officiis omnis porro quod rem repellat repellendus sapiente tempora totam
+            voluptatem?</p>
+    </div>
+    <img src="https://source.unsplash.com/DoUgSMezLp0" alt="" srcset="">
+    <button>Log In</button>
+</section>
 <main style="background-color: beige">
-    main content
-    <section>
 
+    <section class="plans" id="plans">
+        <article>
+            <img class="plan_logo" src="images/logo_cutlery.png" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aperiam beatae culpa distinctio excepturi
+                expedita ipsa magni minus molestiae necessitatibus optio provident quaerat quas rem sed suscipit,
+                tempore veniam vitae.</p>
+        </article>
+        <article>
+            <img class="plan_logo" src="images/logo_cutlery.png" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aperiam beatae culpa distinctio excepturi
+                expedita ipsa magni minus molestiae necessitatibus optio provident quaerat quas rem sed suscipit,
+                tempore veniam vitae.</p>
+        </article>
+        <article>
+            <img class="plan_logo" src="images/logo_cutlery.png" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aperiam beatae culpa distinctio excepturi
+                expedita ipsa magni minus molestiae necessitatibus optio provident quaerat quas rem sed suscipit,
+                tempore veniam vitae.</p>
+        </article>
+    </section>
+    <section class="testimonials">
+        testimonals
     </section>
     <section id="contact" class="contact">
         <form action="submit">
@@ -41,7 +69,6 @@
 
 </main>
 <footer style="background-color: aliceblue">
-
     footer
 </footer>
 </body>
